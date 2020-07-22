@@ -4,11 +4,9 @@ body{
     background-image: url(playa.jpg); 
   }
 
-#box{
-    background-color: white;
-    padding:20px;
+
    
-}
+
 
  
 h2{
@@ -18,7 +16,7 @@ h2{
     background-color: white;
 }
 
-#highlight {
+#highlight1{
     background-color: brown;
     border: 4px solid black;
     font-size:24px;
@@ -29,7 +27,7 @@ h2{
     padding: 10px 30px 10px 30px;
 }
 #highlight2 {
-    background-color: green;
+    background-color: pink;
     border: 4px solid black;
     font-size:24px;
     font-weight: bold;
@@ -40,7 +38,7 @@ h2{
 }
 #highlight3 {
      
-    background-color: gold;
+    background-color: skyblue;
     border: 4px solid black;
     font-size:24px;
     font-weight: bold;
@@ -50,13 +48,23 @@ h2{
     padding: 10px 30px 10px 30px;
 }
 
+#highlight4 {
+    background-color: violet;
+    border: 4px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
  
 
 #p1 {
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:lightgreen;
+    background-color:orange;
     color:black;
     font-weight: bold;
     font-style: italic;
@@ -66,7 +74,7 @@ h2{
      padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:orange;
+    background-color:skyblue;
     color:black;
     font-weight: bold;
     font-style: italic;
@@ -76,58 +84,28 @@ h2{
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:pink;
+    background-color:yellow;
     color:black;
     font-weight: bold;
     font-style: italic;
    }
+
+#p4 {
+    padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:lightgreen;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+  }
 /* RESPONSIVE WORK DEVICE */
 
 .fili {
   width: 100%;
 }
-@media (min-width:992px)
-{
-.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
-  float: left; 
-} 
-.col1{
-  width: 8.33%;
-}
-.col2{
-  width: 16.66%;
-}
-.col3{
-  width: 25%;
-}
-.col4{
-  width: 33.33%;
-}
-.col5{
-  width: 41.66%;
-}
-.col6{
-  width: 50%;
-}
-.col7{
-  width: 58.33%;
-}
-.col8{
-  width: 66.66%;
-}
-.col9{
-  width: 74.99%;
-}
-.col10{
-  width: 83.33%;
-}
-.col11{
-  width: 91.66%;
-}
-.col12{
-  width: 100%;
-}
-       
+
+     
 }
 @media (min-width:768px) and (max-width:991px)
 {
@@ -194,3 +172,94 @@ h2{
 }
 .colp6{
   width: 50%;
+}
+  @media (min-width:992px)
+{
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+  float: left; 
+} 
+.col1{
+  width: 8.33%;
+}
+.col2{
+  width: 16.66%;
+}
+.col3{
+  width: 25%;
+}
+.col4{
+  width: 33.33%;
+}
+.col5{
+  width: 41.66%;
+}
+.col6{
+  width: 50%;
+}
+.col7{
+  width: 58.33%;
+}
+.col8{
+  width: 66.66%;
+}
+.col9{
+  width: 74.99%;
+}
+.col10{
+  width: 83.33%;
+}
+.col11{
+  width: 91.66%;
+}
+.col12{
+  width: 100%;
+}
+
+@media (min-width:992px)
+{
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+  float: left; 
+} 
+.col1{
+  width: 8.33%;
+}
+.col2{
+  width: 16.66%;
+}
+.col3{
+  width: 25%;
+}
+.col4{
+  width: 33.33%;
+}
+.col5{
+  width: 41.66%;
+}
+.col6{
+  width: 50%;
+}
+.col7{
+  width: 58.33%;
+}
+.col8{
+  width: 66.66%;
+}
+.col9{
+  width: 74.99%;
+}
+.col10{
+  width: 83.33%;
+}
+.col11{
+  width: 91.66%;
+}
+.col12{
+  width: 100%;
+}
+#cosita{
+     position: relative;
+}
+
+}
+
+
